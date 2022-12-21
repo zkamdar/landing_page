@@ -1,52 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
-}
-
-.header,
-.info.one {
-    background-color: #1F2937;
-    color: white; 
+    margin: 0;
 }
 
 .header {
     display: flex;
-    align-items: center;
+    background-color: #1f2937;
+    color: white;
     justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 25px;
 }
 
 ul {
-    list-style-type: none;
     list-style: none;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    gap: 8px;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: lightgray;
+    font-size: 18px;
+    color: #E5E7Eb;
 }
 
-.info.one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.info.two {
-    display: flex;
-}
-
-.quote {
-    background-color: lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal {
-    background-color: lightblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px;
 }
